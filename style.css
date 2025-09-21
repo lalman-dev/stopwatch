@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(/Copilot_20250921_134408.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.container {
+  height: 45vh;
+  width: 40vw;
+  min-width: 400px;
+  background: linear-gradient(
+    to right,
+    rgba(16, 17, 16, 0.612),
+    rgba(101, 103, 103, 0.53)
+  );
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  box-shadow: 0 0 15px white;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.time {
+  color: white;
+  padding: 3rem;
+  margin: 2rem;
+  background-color: rgba(8, 8, 8, 0.436);
+  text-align: center;
+  border-radius: 15px;
+  border: 1px solid rgb(90, 89, 89);
+  font-size: 5rem;
+  font-family: "Orbitron", sans-serif;
+}
+#button {
+  border: 1px solid rgb(195, 195, 195);
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  color: white;
+  transition: 0.2s;
+}
+#button:hover {
+  transform: scale(1.2);
+}
+.start {
+  background-color: rgb(29, 148, 37);
+}
+.stop {
+  background-color: rgb(164, 3, 3);
+}
+.reset {
+  background-color: rgb(136, 90, 5);
+}
+.start:hover {
+  box-shadow: 0 0 20px rgb(29, 148, 37);
+}
+.stop:hover {
+  box-shadow: 0 0 20px rgb(164, 3, 3);
+}
+.reset:hover {
+  box-shadow: 0 0 20px rgb(136, 90, 5);
+}
