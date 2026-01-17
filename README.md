@@ -11,10 +11,12 @@ A clean, functional stopwatch built with HTML, CSS, and vanilla JavaScript. It f
 ---
 
 ## 📦 Project Structure
+```
 ├── index.html    # Contains the stopwatch layout and buttons
 ├── style.css     # Styles the container, time display, and buttons
 ├── script.js     # Implements stopwatch logic and button interactions
 
+```
 ---
 
 ## 🚀 Features
